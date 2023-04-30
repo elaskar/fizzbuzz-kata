@@ -1,6 +1,6 @@
 import { fizzbuzz } from "./fizzbuzz";
-import { NegativeMaxValueError } from "./NegativeMaxValueError";
-import { NullMaxValueError } from "./NullMaxValueError";
+import { NegativeMaxValueError } from "./errors/NegativeMaxValueError";
+import { NullMaxValueError } from "./errors/NullMaxValueError";
 
 export function fizzbuzzList(maxValue: number) {
   if (maxValue === 0) {

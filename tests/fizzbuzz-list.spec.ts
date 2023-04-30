@@ -1,6 +1,6 @@
-import { NegativeMaxValueError } from "./NegativeMaxValueError";
-import { NullMaxValueError } from "./NullMaxValueError";
-import { fizzbuzzList } from "./fizzbuzzList";
+import { NegativeMaxValueError } from "../src/errors/NegativeMaxValueError";
+import { NullMaxValueError } from "../src/errors/NullMaxValueError";
+import { fizzbuzzList } from "../src/fizzbuzzList";
 
 describe("Fizzbuzz list", () => {
   it("should print fizzbuzz from 1 to 5", () => {
